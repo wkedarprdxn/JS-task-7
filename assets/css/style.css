@@ -195,6 +195,7 @@ sub {
 /*for all*/
 
 body {
+    background-color: #444;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -219,9 +220,50 @@ li {
 }
 
 
+/* =========================
+Main-Container
+============================ */
+
+.container {
+    max-width: 80%;
+    width: 1060px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+Main-Container End
+============================ */
+
+
 /*=================================
   Header styling starts here
 =================================*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+    border-bottom: solid rgb(100, 97, 97) 1px;
+}
+
+nav h1 {
+    margin: auto 0;
+    font-size: xx-large;
+    color: #ddd;
+}
+
+nav ul li a {
+    font-size: large;
+    color: #ddd;
+    text-decoration: none;
+    padding: .8rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
 
 
 /*=================================
