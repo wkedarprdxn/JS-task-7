@@ -297,6 +297,12 @@ nav ul li a:hover {
 
 .img-wrap {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-wrap .filter {
+    width: 25%;
 }
 
 .img-wrap figure img {
@@ -320,6 +326,7 @@ nav ul li a:hover {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .text-widget,
@@ -327,9 +334,7 @@ nav ul li a:hover {
 .pop-tags,
 .flicker {
     padding: 10px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 100%;
+    flex: 1 0 20px;
 }
 
 .recent-posts p::after {
@@ -462,4 +467,18 @@ footer ul li:hover {
 
 /*media query for 995px starts here*/
 
-@media only screen and (max-width: 995px) {}
+@media screen and (max-width: 900px) {}
+
+@media only screen and (max-width: 995px) {
+    .img-wrap .filter {
+        width: 50%;
+    }
+    .flicker-img-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flicker-img-wrap figure {
+        margin: 5px;
+        flex: 35%;
+    }
+}
