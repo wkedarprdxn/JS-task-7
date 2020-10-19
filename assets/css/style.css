@@ -226,7 +226,7 @@ Main-Container
 
 .container {
     max-width: 80%;
-    width: 1060px;
+    width: 1500px;
     margin: 0 auto;
 }
 
@@ -274,6 +274,98 @@ nav ul li a:hover {
 /*=================================
   main styling starts here
 =================================*/
+
+.img-filter ul li button {
+    border: none;
+    padding: 10px;
+    margin: 10px 0px;
+    color: #bbb;
+    outline: none;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: small;
+}
+
+.img-filter ul li button:hover {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.img-filter ul li button:active {
+    transform: translateY(4px);
+}
+
+.img-wrap {
+    display: flex;
+}
+
+.img-wrap figure img {
+    height: 160px;
+}
+
+.img-container {
+    margin-bottom: 10px;
+}
+
+.main-sec-2 {
+    margin: 20px 0px;
+}
+
+.main-sec-2 h2 {
+    text-transform: uppercase;
+    font-size: x-large;
+    color: #bbb;
+    margin: 20px 0px;
+}
+
+.row {
+    display: flex;
+}
+
+.text-widget,
+.recent-posts,
+.pop-tags,
+.flicker {
+    padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+}
+
+.recent-posts p::after {
+    content: "";
+    display: block;
+    margin: 5px 0px;
+    border-bottom: solid rgb(100, 95, 95) 1px;
+}
+
+.flicker-img-wrap {
+    display: flex;
+}
+
+.flicker-img-wrap figure {
+    margin: 5px;
+}
+
+.pop-tags ul li button {
+    border: none;
+    padding: 10px;
+    margin: 10px 0px;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    background-color: #23ceaf;
+    font-size: small;
+}
+
+.pop-tags ul li button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.pop-tags ul li button:active {
+    transform: translateY(4px);
+}
 
 
 /*=================================
