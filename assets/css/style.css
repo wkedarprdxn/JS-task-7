@@ -342,6 +342,10 @@ main {
     flex: 1 0 20px;
 }
 
+.text-widget p {
+    margin: 10px 0px;
+}
+
 .recent-posts p::after {
     content: "";
     display: block;
