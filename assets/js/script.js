@@ -7,8 +7,8 @@ $(document).ready(function() {
         if (val == "all") {
             $('.filter').show('1000');
         } else {
-            $('.filter').not('.' + val).hide('3000');
-            $('.filter').filter('.' + val).show('3000');
+            $('.filter').not('.' + val).hide(1000);
+            $('.filter').filter('.' + val).show(1000);
         }
     })
 });
