@@ -357,7 +357,7 @@ main {
     display: flex;
 }
 
-.flicker-img-wrap figure {
+.flicker-img-wrap li {
     margin: 5px;
 }
 
@@ -486,7 +486,7 @@ footer ul li:hover {
         display: flex;
         flex-wrap: wrap;
     }
-    .flicker-img-wrap figure {
+    .flicker-img-wrap li {
         margin: 5px;
         flex: 35%;
     }
