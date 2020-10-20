@@ -336,6 +336,11 @@ main {
 
 .img-wrap .filter {
     width: 25%;
+    transition: transform 0.5s;
+}
+
+.img-wrap .filter:hover {
+    transform: scale(1, 2);
 }
 
 .img-wrap figure img {
@@ -387,6 +392,14 @@ main {
 
 .flicker-img-wrap li {
     margin: 5px;
+}
+
+.flicker-img {
+    transition: transform 2s;
+}
+
+.flicker-img:hover {
+    transform: rotate(360deg);
 }
 
 .pop-tags ul li button {
